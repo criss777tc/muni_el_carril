@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Municipalidad de El Carril</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+      <div class="logo"> 
+        <img src="logo1.jpg" alt="logo muni" id="logo1" ">
+      </div>
+      <div class="titulo">
+        <h1>Municipalidad de El Carril</h1>
+      </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Turismo</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Instituciones</a></li>
+        </ul>
+    </nav>
+  </header>
+  <!-- SECCIÓN DE NOTICIAS CON CARRUSEL -->
+        <section id="inicio" class="noticias-section">
+            <div class="carrusel-container">
+                <h2 class="section-title">Noticia <span class="noticia-num" id="noticia-num">1</span></h2>
+                
+                <div id="noticias" class="carrusel">
+                    <div class="pista" id="pista"></div>
+                    <button class="btn-prev" onclick="mover(-1)">‹</button>
+                    <button class="btn-next" onclick="mover(1)">›</button>
+                </div>
+
+                <div class="puntos-container">
+                    <div class="puntos" id="puntos"></div>
+                </div>
+            </div>
+        </section>
+        
+  
+</body>
+</html>
